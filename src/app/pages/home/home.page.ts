@@ -9,4 +9,7 @@ export class HomePage {
 
   constructor() {}
 
+  localizarObjeto(evento) {
+    console.log(evento.detail.value);
+  }
 }
